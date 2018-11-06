@@ -1000,160 +1000,86 @@ body {
       .segment-card__nav--next span {
         margin-right: 10px; }
   .segment-card__infos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 30px 38px 25px; }
-  .segment-card__info {
-    position: relative;
-    border-right: 1px solid #e4e4e4;
-    padding: 5px 0;
-    overflow: hidden; }
-    .segment-card__info:nth-child(1) {
-      width: 348px; }
-    .segment-card__info:nth-child(2) {
-      width: 365px;
-      padding-left: 24px;
-      padding-right: 15px; }
-    .segment-card__info:nth-child(3) {
-      width: 411px;
-      padding-left: 15px;
-      border-right: none; }
+    padding: 22px 20px 20px 142px;
+    position: relative; }
+  .segment-card__emblem {
+    position: absolute;
+    top: 25px;
+    left: 40px; }
   .segment-card__name {
     color: #595959;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 22px;
-    margin-bottom: 8px; }
-  .segment-card__link {
-    font-family: "Open Sans", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    text-decoration: underline;
-    color: #2b74a1; }
-    .segment-card__link:hover {
-      text-decoration: none; }
-  .segment-card__emblem {
-    float: left;
-    margin-right: 20px; }
-  .segment-card__contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 3px; }
-    .segment-card__contact:last-child {
-      margin-bottom: 0; }
-    .segment-card__contact span {
-      display: inline-block;
-      min-width: 60px;
-      color: #ababab;
-      font-family: "Open Sans", sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 20px;
-      margin-right: 10px; }
-    .segment-card__contact p {
-      color: #595959;
-      font-family: "Open Sans", sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 20px; }
-    .segment-card__contact a {
-      font-family: "Open Sans", sans-serif;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 18px; }
-      .segment-card__contact a, .segment-card__contact a:focus, .segment-card__contact a:link {
-        color: #2b74a1;
-        text-decoration: underline; }
-        .segment-card__contact a:hover, .segment-card__contact a:focus:hover, .segment-card__contact a:link:hover {
-          text-decoration: underline;
-          text-decoration: none; }
-    .segment-card__contact--personas {
-      display: block; }
-      .segment-card__contact--personas span {
-        display: inline-block;
-        margin-right: 0;
-        margin-bottom: 3px; }
-  .segment-card__operate {
-    background-color: #fbfae6;
-    border-top: 1px solid #ecd889;
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    padding: 0 18px; }
-  .segment-card__edit {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 120px;
-    height: 33px;
+    margin-bottom: 11px; }
+  .segment-card__table {
+    background-color: #f4f4f4;
     border-radius: 3px;
-    border: 2px solid #0072c6;
-    background-color: #ffffff;
-    cursor: pointer;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s; }
-    .segment-card__edit:hover {
-      background-color: #e8e8e8; }
-    .segment-card__edit span {
-      color: #0072c6;
-      font-family: "Open Sans", sans-serif;
-      font-size: 13px;
-      font-weight: 700;
-      line-height: 18px;
-      text-transform: uppercase;
-      margin-left: 6px; }
+    padding: 14px 17px; }
+    .segment-card__table--offset {
+      margin-bottom: 5px; }
+    .segment-card__table--with-hint {
+      padding-bottom: 8px; }
   .segment-card--header {
     margin-top: 25px;
     margin-bottom: -90px; }
 
-.segment-personas__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-.segment-personas__contact {
-  padding-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.segment-card-table__row {
+  position: relative; }
+  .segment-card-table__row--divided .segment-card-table__field {
+    padding: 7px 0; }
+    .segment-card-table__row--divided .segment-card-table__field:first-child {
+      position: relative; }
+    .segment-card-table__row--divided .segment-card-table__field:before {
+      content: "";
+      display: block;
+      width: 1002px;
+      height: 1px;
+      background-color: #e1e1e1;
+      position: absolute;
+      top: 0;
+      left: -2px; }
+.segment-card-table__header {
+  text-align: left;
+  color: #ababab;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  padding-bottom: 5px; }
+.segment-card-table__field {
   color: #595959;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  line-height: 20px; }
-  .segment-personas__contact img {
-    margin-right: 5px; }
-  .segment-personas__contact--name {
-    min-width: 130px; }
-  .segment-personas__contact--phone {
+  line-height: 13px; }
+  .segment-card-table__field a, .segment-card-table__field a:focus, .segment-card-table__field a:link {
+    text-decoration: none;
+    color: #2b74a1; }
+    .segment-card-table__field a:hover span, .segment-card-table__field a:focus:hover span, .segment-card-table__field a:link:hover span {
+      text-decoration: none; }
+  .segment-card-table__field a span {
+    text-decoration: underline; }
+  .segment-card-table__field span, .segment-card-table__field img {
+    display: inline-block;
+    vertical-align: middle; }
+  .segment-card-table__field--adress, .segment-card-table__field--name {
+    min-width: 280px; }
+  .segment-card-table__field--phone {
     min-width: 145px; }
-  .segment-personas__contact--skype {
-    min-width: 100px; }
+  .segment-card-table__field--email {
+    min-width: 170px; }
+  .segment-card-table__field--site, .segment-card-table__field--skype {
+    min-width: 170px; }
+  .segment-card-table__field--hint {
+    text-align: center;
+    color: #ababab;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 16px;
+    padding-left: 70px; }
 
 .process-stages {
   margin-top: 90px; }
