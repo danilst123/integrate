@@ -1317,44 +1317,61 @@ body {
     padding: 13px 24px 21px;
     background-color: #ffffff; }
   .process-kpi__scores {
-    border-top: 1px solid #cdd3d6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
     margin-top: 13px;
-    padding-top: 18px; }
-  .process-kpi__score {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 6px; }
-    .process-kpi__score:last-child {
-      margin-bottom: 6px; }
+    padding-top: 20px;
+    border-top: 1px solid #cdd3d6; }
+  .process-kpi__score-col {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0; }
+    .process-kpi__score-col--edit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      position: absolute;
+      top: 20px;
+      right: 0; }
   .process-kpi__number {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-width: 113px;
-    height: 34px;
-    border-radius: 3px;
-    border: 1px solid #cdd3d6;
-    background-color: #ffffff;
-    padding: 0 13px;
     color: #595959;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 19px;
-    margin-right: 15px; }
+    line-height: 33px;
+    text-align: right;
+    padding-right: 16px; }
+    .process-kpi__number:not(:last-child) {
+      margin-bottom: 7px; }
   .process-kpi__property {
     color: #262626;
     font-family: "Open Sans", sans-serif;
     font-size: 13px;
     font-weight: 600;
-    line-height: 15px; }
+    line-height: 33px; }
+    .process-kpi__property:not(:last-child) {
+      margin-bottom: 7px; }
+  .process-kpi__edit {
+    width: 157px;
+    height: 33px;
+    border-radius: 3px;
+    border: 2px solid #0072c6;
+    background-color: #ffffff;
+    color: #0072c6;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .process-kpi__edit:not(:last-child) {
+      margin-bottom: 7px; }
 
 .process-kpi-checkbox {
   display: -webkit-box;
