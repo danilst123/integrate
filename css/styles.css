@@ -295,7 +295,7 @@ body {
       .schedule-versions__link:hover span, .schedule-versions__link:link:hover span, .schedule-versions__link:focus:hover span {
         text-decoration: underline; }
 
-.competent-authority {
+.competent-authority-link {
   display: block;
   height: 40px;
   font-family: "Open Sans", sans-serif;
@@ -307,18 +307,18 @@ body {
   border-radius: 3px;
   margin-top: 3px;
   border: 1px solid #e8eaeb; }
-  .competent-authority, .competent-authority:focus, .competent-authority:link {
+  .competent-authority-link, .competent-authority-link:focus, .competent-authority-link:link {
     color: #595959;
     text-decoration: none; }
-    .competent-authority:hover span, .competent-authority:focus:hover span, .competent-authority:link:hover span {
+    .competent-authority-link:hover span, .competent-authority-link:focus:hover span, .competent-authority-link:link:hover span {
       text-decoration: underline; }
-  .competent-authority--active {
+  .competent-authority-link--active {
     border: 1px solid #e0bf84;
     background-color: #fbfae6;
     font-weight: 700; }
-    .competent-authority--active, .competent-authority--active:focus, .competent-authority--active:link {
+    .competent-authority-link--active, .competent-authority-link--active:focus, .competent-authority-link--active:link {
       color: #c6a163; }
-      .competent-authority--active:hover span, .competent-authority--active:focus:hover span, .competent-authority--active:link:hover span {
+      .competent-authority-link--active:hover span, .competent-authority-link--active:focus:hover span, .competent-authority-link--active:link:hover span {
         text-decoration: none; }
 
 .process-search {
