@@ -1358,20 +1358,35 @@ body {
     .process-kpi__property:not(:last-child) {
       margin-bottom: 7px; }
   .process-kpi__edit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 157px;
     height: 33px;
     border-radius: 3px;
     border: 2px solid #0072c6;
     background-color: #ffffff;
-    color: #0072c6;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 18px;
-    text-transform: uppercase;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .process-kpi__edit:hover {
+      background-color: #e8e8e8; }
     .process-kpi__edit:not(:last-child) {
       margin-bottom: 7px; }
+    .process-kpi__edit span {
+      color: #0072c6;
+      font-family: "Open Sans";
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 18px;
+      text-transform: uppercase;
+      margin-left: 6px; }
 
 .process-kpi-checkbox {
   display: -webkit-box;
