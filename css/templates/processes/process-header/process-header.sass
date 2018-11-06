@@ -1,0 +1,53 @@
+.process-header
+	display: flex
+	position: relative
+	&__index
+		color: #f4f4f4
+		font-family: "Open Sans", sans-serif
+		font-size: 18px
+		font-weight: 400
+		line-height: 27px
+		letter-spacing: -0.45px
+		float: left
+		margin-right: 12px
+	&__text
+		width: 820px
+	&__title
+		color: #f4f4f4
+		font-family: "Open Sans", sans-serif
+		font-size: 18px
+		font-weight: 400
+		line-height: 27px
+		margin-bottom: 5px
+	&__link
+		clear: left
+		font-family: "Open Sans", sans-serif
+		font-size: 14px
+		font-weight: 600
+		line-height: 27px
+		&, &:focus, &:link
+			text-decoration: underline
+			color: #cea663
+			&:hover
+				text-decoration: none
+	&__return
+		display: flex
+		align-items: center
+		position: absolute
+		z-index: 5
+		top: -55px
+		right: 0
+		&, &:focus, &:link
+			text-decoration: none
+			&:hover span
+				text-decoration: underline
+		span
+			color: #cea663
+			font-family: "Open Sans", sans-serif
+			font-size: 14px
+			font-weight: 600
+			line-height: 27px
+			text-transform: uppercase
+			margin-right: 6px
+		img
+			transform: translateY(-2px)

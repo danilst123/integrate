@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-5 -5 510 510"
+	 enable-background="new -5 -5 510 510" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="413.8" height="507" x="52.1" y="-2.9" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path fill="#FFFFFF" stroke="#8E6BB2" stroke-width="4.23" stroke-miterlimit="10" d="M423.5,243.6C382.6,377.5,249.9,500,249.9,500
+	S117.4,367.3,76.5,243.6c-6.4-18.8-10.2-38.9-10.2-60C66.3,82.3,148.4,0,249.9,0s183.5,82.3,183.5,183.5
+	C433.7,204.6,429.9,224.7,423.5,243.6z"/>
+<g>
+	
+		<ellipse id="XMLID_228_" fill="#8E6BB2" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="250.5" cy="194.8" rx="131.7" ry="132.4"/>
+	<g>
+		<defs>
+			<ellipse id="XMLID_144_" cx="250.5" cy="178.2" rx="131.7" ry="132.4"/>
+		</defs>
+		<use xlink:href="#XMLID_144_"  overflow="visible" fill="#FFFFFF"/>
+		<clipPath id="XMLID_2_">
+			<use xlink:href="#XMLID_144_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#XMLID_2_)" fill="none" stroke="#A3A3A3" stroke-width="2.0739" stroke-miterlimit="10" d="M272.3-0.8
+			c0.9,18-26.3,47.5-36.9,61c-14.5,18.4-33.9,30.5-53,44.5c-22.5,16.4-49.4,26.7-72.1,42.9c-22.4,16-56.2,44.6-56.1,74.6
+			c-2,2.6-0.4-0.3-1.1-1.1"/>
+		<path clip-path="url(#XMLID_2_)" fill="none" stroke="#A3A3A3" stroke-width="2.0739" stroke-miterlimit="10" d="M301.2-3.5
+			c-16.3,26.6-32.6,54-56.5,74.9c-22.4,19.6-47.7,33.8-72.8,49.9c-28.2,18.1-56.6,37.9-78.6,63.8c-11.6,13.7-33.8,39.8-32.4,59.6
+			c0.5,7.4,8.2,12.7,14.2,18.6c-6.2-48.1,73.2-93.3,110.5-106c35.6-12.1,72-27.4,103.4-48.6c25.2-17,40.2-37.8,55.9-63.3
+			c1.5,23.2-7.5,33.1-23.4,49.1c-15.5,15.6-36.8,28.4-55.9,39.2c-45.2,25.6-103,53.8-99.4,114.9c6.1-1.7,13.9-2.1,20.2,0.8
+			c-4.1-53.1,64.5-79.5,101.9-99c28.1-14.7,53.6-26.7,72.1-52.8c10.2-14.4,38.9-57.7,9.6-66.6"/>
+		<g clip-path="url(#XMLID_2_)">
+			<defs>
+				<path id="XMLID_227_" d="M418.4,68.6c-4.1,1.4-304.7,216.3-304.7,216.3L253,397.2l212.3-210.8L418.4,68.6z"/>
+			</defs>
+			<use xlink:href="#XMLID_227_"  overflow="visible" fill="#8E6BB2"/>
+			<clipPath id="XMLID_3_">
+				<use xlink:href="#XMLID_227_"  overflow="visible"/>
+			</clipPath>
+			
+				<rect x="211.6" y="192" clip-path="url(#XMLID_3_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="8.3" height="134.5"/>
+			
+				<rect x="357.8" y="119.9" clip-path="url(#XMLID_3_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="11" height="102.6"/>
+			
+				<rect x="275.1" y="133.7" clip-path="url(#XMLID_3_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="6.9" height="202.4"/>
+			
+				<rect x="160.6" y="211.4" clip-path="url(#XMLID_3_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="31.7" height="116.5"/>
+			<use xlink:href="#XMLID_227_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10"/>
+		</g>
+		<g clip-path="url(#XMLID_2_)">
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="159.2" cy="244.8" rx="39" ry="39.3"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="159.2" cy="244.6" rx="32.7" ry="32.8"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="159.2" cy="244.6" rx="26" ry="26.2"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="159.2" cy="244.6" rx="18.6" ry="18.7"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="159.2" cy="244.6" rx="12.3" ry="12.3"/>
+		</g>
+		<g clip-path="url(#XMLID_2_)">
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="349.4" cy="249.1" rx="58" ry="58.3"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="349.5" cy="248.8" rx="48.5" ry="48.8"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="349.5" cy="248.8" rx="38.6" ry="38.9"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="349.5" cy="248.8" rx="27.6" ry="27.7"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="349.5" cy="248.8" rx="18.2" ry="18.3"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="349.8" cy="249.1" rx="9.6" ry="9.6"/>
+		</g>
+		<g clip-path="url(#XMLID_2_)">
+			<g>
+				<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" d="M251.6,266.1h-11.7
+					c0,0-7.2-20.5-6.5-37.8s7.9-43,8.6-65.2s-2.1-77.3-2.1-77.3h11.7c0,0-3.4,61-2.8,77.6s8.3,47.1,9,65.2
+					C258.4,246.7,251.6,266.1,251.6,266.1z"/>
+				<g>
+					<defs>
+						<path id="XMLID_226_" d="M282.7,277.2h-74.4v-0.1c0-14.1,11.5-25.6,25.6-25.6h23.3C271.3,251.6,282.7,263,282.7,277.2
+							L282.7,277.2z"/>
+					</defs>
+					<use xlink:href="#XMLID_226_"  overflow="visible" fill="#8E6BB2"/>
+					<clipPath id="XMLID_4_">
+						<use xlink:href="#XMLID_226_"  overflow="visible"/>
+					</clipPath>
+					
+						<rect x="206.1" y="264.1" clip-path="url(#XMLID_4_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="80" height="4.2"/>
+					
+						<use xlink:href="#XMLID_226_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10"/>
+				</g>
+				<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" d="M291,282.1h-91v0c0-4.6,3.7-8.3,8.3-8.3
+					h74.4C287.3,273.8,291,277.5,291,282.1L291,282.1z"/>
+				
+					<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="245.5" cy="84.2" rx="10.1" ry="9.7"/>
+				<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M320.6,100.2H170.8
+					c-1.6,0-2.9-1.3-2.9-2.9v0c0-1.6,1.3-2.9,2.9-2.9h149.7c1.6,0,2.9,1.3,2.9,2.9v0C323.4,98.9,322.1,100.2,320.6,100.2z"/>
+				<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M253.8,115.8c0,0,0.8,9.1-8,9.4
+					s-8.5-9.4-8.5-9.4l3.9-14l9.6-0.3L253.8,115.8z"/>
+			</g>
+			<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" d="M290.6,168.4c0.3-1,2.9-22.7,2.9-22.7
+				l28.1,0.5c0,0,5.9,23.9,4.5,23.9S290.6,168.4,290.6,168.4z"/>
+			<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" d="M166.8,169.1c0.3-1,21.2-25,21.2-25
+				l27.4,1c0,0,1.9,22.9,0.5,22.9C214.6,168,166.8,169.1,166.8,169.1z"/>
+			<g>
+				<g>
+					<g>
+						<g>
+							<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M173.5,163.3c-0.3,0-0.7-0.1-1-0.4
+								c-1.2-0.9-1.6-3.2-1.1-5.1l17.5-62.1c0.4-1.3,1.2-2.2,2-2.2c0.9,0,1.7,0.8,2.1,2.1l18.9,62.1c0.6,1.9,0.1,4.2-1,5.2
+								c-1.1,1-2.5,0.2-3.1-1.7L191.1,104l-15.5,57.1C175.2,162.5,174.4,163.3,173.5,163.3z"/>
+						</g>
+						<g>
+							<g>
+								
+									<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="173.2" cy="166.8" rx="5.6" ry="6.1"/>
+								
+									<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="211.4" cy="166.8" rx="5.6" ry="6.1"/>
+							</g>
+							<g>
+								<defs>
+									<path id="XMLID_225_" d="M192.5,198.7h-0.4c-16.1,0-29.1-13-29.1-29.1v-0.1h58.6v0.1C221.5,185.7,208.5,198.7,192.5,198.7z
+										"/>
+								</defs>
+								<use xlink:href="#XMLID_225_"  overflow="visible" fill="#8E6BB2"/>
+								<clipPath id="XMLID_5_">
+									<use xlink:href="#XMLID_225_"  overflow="visible"/>
+								</clipPath>
+								
+									<rect x="155.8" y="169.8" clip-path="url(#XMLID_5_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="71.7" height="9.7"/>
+								
+									<rect x="155.1" y="184" clip-path="url(#XMLID_5_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="71.7" height="5.5"/>
+								
+									<use xlink:href="#XMLID_225_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10"/>
+							</g>
+							<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M219.7,173.3h-54.8
+								c-2.4,0-4.3-1.9-4.3-4.3v0c0-2.4,1.9-4.3,4.3-4.3h54.8c2.4,0,4.3,1.9,4.3,4.3v0C224,171.4,222,173.3,219.7,173.3z"/>
+						</g>
+					</g>
+					
+						<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="191.3" cy="97.5" rx="5.5" ry="5.5"/>
+				</g>
+				<g>
+					<g>
+						<g>
+							<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M280,163.3c-0.3,0-0.7-0.1-1-0.4
+								c-1.2-0.9-1.6-3.2-1.1-5.1l17.5-62.1c0.4-1.3,1.2-2.2,2-2.2c0.9,0,1.7,0.8,2.1,2.1l18.9,62.1c0.6,1.9,0.1,4.2-1,5.2
+								c-1.1,1-2.5,0.2-3.1-1.7L297.6,104l-15.5,57.1C281.7,162.5,280.9,163.3,280,163.3z"/>
+						</g>
+						<g>
+							<g>
+								
+									<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="279.7" cy="166.8" rx="5.6" ry="6.1"/>
+								
+									<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="317.9" cy="166.8" rx="5.6" ry="6.1"/>
+							</g>
+							<g>
+								<defs>
+									<path id="XMLID_224_" d="M299,198.7h-0.4c-16.1,0-29.1-13-29.1-29.1v-0.1H328v0.1C328,185.7,315,198.7,299,198.7z"/>
+								</defs>
+								<use xlink:href="#XMLID_224_"  overflow="visible" fill="#8E6BB2"/>
+								<clipPath id="XMLID_6_">
+									<use xlink:href="#XMLID_224_"  overflow="visible"/>
+								</clipPath>
+								
+									<rect x="266.1" y="171.2" clip-path="url(#XMLID_6_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="64.8" height="9"/>
+								
+									<rect x="268.2" y="184.8" clip-path="url(#XMLID_6_)" fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" width="64.8" height="3.9"/>
+								
+									<use xlink:href="#XMLID_224_"  overflow="visible" fill="none" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10"/>
+							</g>
+							<path fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" d="M326.2,173.3h-54.8
+								c-2.4,0-4.3-1.9-4.3-4.3v0c0-2.4,1.9-4.3,4.3-4.3h54.8c2.4,0,4.3,1.9,4.3,4.3v0C330.5,171.4,328.5,173.3,326.2,173.3z"/>
+						</g>
+					</g>
+					
+						<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="1.0369" stroke-miterlimit="10" cx="297.8" cy="97.5" rx="5.5" ry="5.5"/>
+				</g>
+			</g>
+		</g>
+		<g clip-path="url(#XMLID_2_)">
+			<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="288.8" cy="285" rx="39" ry="39.3"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="288.8" cy="284.8" rx="32.7" ry="32.8"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="288.8" cy="284.8" rx="26" ry="26.2"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="288.8" cy="284.8" rx="18.6" ry="18.7"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="288.8" cy="284.8" rx="12.3" ry="12.3"/>
+		</g>
+		<g clip-path="url(#XMLID_2_)">
+			<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="366" cy="115.9" rx="39" ry="39.3"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="366" cy="115.7" rx="32.7" ry="32.8"/>
+			<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="366" cy="115.7" rx="26" ry="26.2"/>
+			
+				<ellipse fill="#FFFFFF" stroke="#8E6BB2" stroke-width="2.0739" stroke-miterlimit="10" cx="366" cy="115.7" rx="18.6" ry="18.7"/>
+			
+				<ellipse fill="#8E6BB2" stroke="#FFFFFF" stroke-width="2.0739" stroke-miterlimit="10" cx="366" cy="115.7" rx="12.3" ry="12.3"/>
+		</g>
+		<use xlink:href="#XMLID_144_"  overflow="visible" fill="none" stroke="#8E6BB2" stroke-width="4.1477" stroke-miterlimit="10"/>
+	</g>
+</g>
+</svg>

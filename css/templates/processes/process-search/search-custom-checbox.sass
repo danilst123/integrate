@@ -1,0 +1,34 @@
+.search-custom-checkbox
+	display: flex
+	align-items: center
+	&__input
+		display: none
+	&__icon
+		width: 20px
+		height: 20px
+		border-radius: 2px
+		border: 2px solid #d5dade
+		background-color: transparent
+		cursor: pointer
+		position: relative
+		&:after
+			content: ''
+			width: 5px
+			height: 18px
+			border-bottom: 2px solid #d5dade
+			border-right: 2px solid #d5dade
+			position: absolute
+			top: -7px
+			left: 9px
+			transform: rotate(0deg) scale(0)
+			transition: all 0.1s
+	&__text
+		color: #ffffff
+		font-family: "Open Sans", sans-serif
+		font-size: 14px
+		font-weight: 400
+		line-height: 19px
+		margin-left: 12px
+		cursor: pointer
+	.custom-checkbox__input:checked + .custom-checkbox__icon:after
+		transform: rotate(45deg) scale(1)

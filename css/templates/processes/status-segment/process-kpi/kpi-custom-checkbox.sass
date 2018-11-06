@@ -1,0 +1,57 @@
+.process-kpi-checkbox
+	display: flex
+	align-items: center
+	&__input
+		display: none
+	&__checkbox
+		display: block
+		border-radius: 14px
+		border: 1px solid #d5dade
+		background-color: #f4f4f4
+		width: 57px
+		height: 28px
+		position: relative
+		cursor: pointer
+		&:before
+			content: 'Нет'
+			color: #d5dade
+			font-family: "Open Sans", sans-serif
+			font-size: 13px
+			font-weight: 400
+			line-height: 19px
+			transition: all 0.3s
+			position: absolute
+			z-index: 1
+			top: 50%
+			transform: translateY(-50%)
+			left: 27px
+		&:after
+			content: ''
+			display: block
+			width: 20px
+			height: 20px
+			background-color: #d5dade
+			border-radius: 50%
+			transition: all 0.3s
+			position: absolute
+			z-index: 2
+			top: 50%
+			transform: translateY(-50%)
+			left: 3px
+	&__text
+		color: #262626
+		font-family: "Open Sans", sans-serif
+		font-size: 13px
+		font-weight: 600
+		line-height: 15px
+		margin-left: 15px
+	&__input:checked + &__checkbox
+		border: 1px solid #cba921
+		background-color: #f9fae7
+		&:before
+			content: 'Да'
+			left: 10px
+			color: #cba921
+		&:after
+			background-color: #cba921
+			left: 32px

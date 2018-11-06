@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Интегрированная система</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <a href="/" class="logo">
+                    <img src="img/logo.svg" alt="Интегрированная система" class="logo__img">
+                    <p class="logo__description">Интегрированная система</p>
+                </a>
+                <div class="usermenu">
+                    <span href="/" class="usermenu__title">Национальный кабинет</span>
+                    <a href="/" class="usermenu__auth auth">
+                        <img class="auth__icon" src="img/icon-user.png" alt="">
+                        <span class="auth__text">Войти</span>
+                    </a>
+                    <div class="usermenu__localization localization">
+                        <button class="localization__btn">
+                            <span class="localization__title">RU</span>
+                            <img class="localization__icon" src="img/icon-dropdown.png" alt="">
+                        </button>
+                        <ul class="localization__list">
+                            <li class="localization__item">RU</li>
+                            <li class="localization__item">EN</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <menu class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item main-menu__item--home"><a href="" class="main-menu__link"><img src="img/icon-home.png" alt=""></a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">О проекте</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Ресурсы</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Участники</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Методология</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Технологии</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Процессы</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Развитие</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Базовые компоненты</a></li>
+                        <li class="main-menu__item"><a href="" class="main-menu__link">Актуальные вопросы</a></li>
+                    </ul>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="showcase">
+            <div class="container">
+                <h1 class="main-title">
+                    Национальный кабинет
+                </h1>
+                <form class="process-search">
+                    <div class="process-search__container">
+                        <input class="process-search__field" placeholder="Введите название общего процесса" type="text" name="" id="">
+                        <button class="process-search__btn" type="submit"></button>
+                    </div>
+                    <label class="process-search__filter search-custom-checkbox">
+                        <input class="search-custom-checkbox__input" type="checkbox" name="" id="">
+                        <div class="search-custom-checkbox__icon"></div>
+                        <span class="search-custom-checkbox__text">Утвержденные</span>
+                    </label>
+                </form>
+            </div>
+        </section>
+        <article class="process-result">
+            <div class="container">
+                <ul class="process-tabs">
+                    <li class="process-tabs__item process-tabs__item--all process-tabs__item--active">
+                        <p class="process-tabs__title">Все</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--os">
+                        <p class="process-tabs__title">Обеспечение электронного документооборота</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--ef">
+                        <p class="process-tabs__title">Экономика и финансовая политика</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--ia">
+                        <p class="process-tabs__title">Промышленность и агропромышленный комплекс</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--tr">
+                        <p class="process-tabs__title">Торговля</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--te">
+                        <p class="process-tabs__title">Техническое регулирование</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--cc">
+                        <p class="process-tabs__title">Таможенное сотрудничество</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--ei">
+                        <p class="process-tabs__title">Энергетика и инфраструктура</p>
+                    </li>
+                    <li class="process-tabs__item process-tabs__item--ca">
+                        <p class="process-tabs__title">Конкуренция и антимонопольное регулирование</p>
+                    </li>
+                </ul>
+                <section class="process-table">
+                    <div class="process-table__row process-table__row--header">
+                        <div class="process-title">Все</div>
+                        <div class="process-countries">
+                            <div class="process-countries__item">
+                                <img class="process-countries__img" src="img/processes/arm.png" alt="">
+                            </div>
+                            <div class="process-countries__item">
+                                <img class="process-countries__img" src="img/processes/blr.png" alt="">
+                            </div>
+                            <div class="process-countries__item">
+                                <img class="process-countries__img" src="img/processes/kz.png" alt="">
+                            </div>
+                            <div class="process-countries__item">
+                                <img class="process-countries__img" src="img/processes/krg.png" alt="">
+                            </div>
+                            <div class="process-countries__item">
+                                <img class="process-countries__img" src="img/processes/rus.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="process-table__row process-table__row--theme">
+                        <div class="process-description">
+                            Формирование, ведение и использование общих информационных ресурсов (реестров, перечней, классификаторов) для поддержки деятельности таможенных органов государств – членов Евразийского экономического союза
+                        </div>
+                    </div>
+                    <div class="process-table__row process-table__row--processes">
+                        <div class="process-processes">
+                            <div class="process-processes__row">
+                                <div class="process-processes__item">
+                                    <div class="process-processes__index">11.</div>
+                                    <div class="process-processes__title">Формирование, ведение и использование классификаторов, используемых для заполнения таможенных деклараций</div>
+                                </div>
+                                <div class="process-diagrams">
+                                    <div class="process-diagrams__item process-diagrams__item--complete">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-6.png" alt="">
+                                            <img src="img/icon-complete.svg" alt="">
+                                        </div>
+                                        <p class="process-diagrams__text">завершен</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-1.png" alt="">
+                                            <span>1</span>
+                                        </div>
+                                        <p class="process-diagrams__text">04.12.2018</p>
+                                    </div>
+                                    <div class="process-diagrams__item process-diagrams__item--complete">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-6.png" alt="">
+                                            <img src="img/icon-complete.svg" alt="">
+                                        </div>
+                                        <p class="process-diagrams__text">завершен</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-2.png" alt="">
+                                            <span>2</span>
+                                        </div>
+                                        <p class="process-diagrams__text">16.10.2018</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-4.png" alt="">
+                                            <span>4</span>
+                                        </div>
+                                        <p class="process-diagrams__text">02.10.2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="process-processes__row">
+                                <div class="process-processes__item">
+                                    <div class="process-processes__index">12.</div>
+                                    <div class="process-processes__title">Формирование, ведение и использование баз данных наименований, адресов и образцов оттисков печатей компетентных органов, уполномоченных заверять сертификаты о происхождении товаров</div>
+                                </div>
+                                <div class="process-diagrams">
+                                    <div class="process-diagrams__item process-diagrams__item--complete">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-6.png" alt="">
+                                            <img src="img/icon-complete.svg" alt="">
+                                        </div>
+                                        <p class="process-diagrams__text">завершен</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-1.png" alt="">
+                                            <span>1</span>
+                                        </div>
+                                        <p class="process-diagrams__text">04.12.2018</p>
+                                    </div>
+                                    <div class="process-diagrams__item process-diagrams__item--complete">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-6.png" alt="">
+                                            <img src="img/icon-complete.svg" alt="">
+                                        </div>
+                                        <p class="process-diagrams__text">завершен</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-2.png" alt="">
+                                            <span>2</span>
+                                        </div>
+                                        <p class="process-diagrams__text">16.10.2018</p>
+                                    </div>
+                                    <div class="process-diagrams__item">
+                                        <div class="process-diagrams__img">
+                                            <img src="img/processes/status-4.png" alt="">
+                                            <span>4</span>
+                                        </div>
+                                        <p class="process-diagrams__text">02.10.2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <ul class="pagination">
+                    <li class="pagination__direction pagination__direction--disabled">
+                        <a href="" class="pagination__direction-link">Первая</a>
+                    </li>
+                    <li class="pagination__direction pagination__direction--disabled">
+                        <a href="" class="pagination__direction-link">Предыдущая</a>
+                    </li>
+                    <li class="pagination__page pagination__page--active">
+                        <a href="" class="pagination__page-link">1</a>
+                    </li>
+                    <li class="pagination__page">
+                        <a href="" class="pagination__page-link">2</a>
+                    </li>
+                    <li class="pagination__page">
+                        <a href="" class="pagination__page-link">3</a>
+                    </li>
+                    <li class="pagination__direction">
+                        <a href="" class="pagination__direction-link">Следующая</a>
+                    </li>
+                    <li class="pagination__direction">
+                        <a href="" class="pagination__direction-link">Последняя</a>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

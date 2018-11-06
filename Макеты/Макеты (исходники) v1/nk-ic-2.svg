@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.469" height="13.406" viewBox="0 0 17.469 13.406">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #28719e;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="иконка" class="cls-1" d="M784.594,598.578L774,609.172l-4.078-4.078-1.406,1.406L774,611.984l12-12Z" transform="translate(-768.531 -598.594)"/>
+</svg>

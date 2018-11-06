@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="119" viewBox="0 0 88 119">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #344468;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="маркер" class="cls-1" d="M135,311a44,44,0,0,1,44,44c0,37.3-43.033,75-44,75s-44-37.033-44-75A44,44,0,0,1,135,311Z" transform="translate(-91 -311)"/>
+</svg>
