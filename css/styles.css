@@ -402,7 +402,7 @@ body {
     line-height: 19px;
     margin-left: 12px;
     cursor: pointer; }
-  .search-custom-checkbox .custom-checkbox__input:checked + .custom-checkbox__icon:after {
+  .search-custom-checkbox .search-custom-checkbox__input:checked + .search-custom-checkbox__icon:after {
     -webkit-transform: rotate(45deg) scale(1);
             transform: rotate(45deg) scale(1); }
 
