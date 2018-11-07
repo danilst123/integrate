@@ -1,0 +1,89 @@
+.process-tabs
+	display: flex
+	align-items: center
+	justify-content: space-between
+	list-style: none
+	padding: 22px 5px 10px
+	&__item
+		width: 94px
+		height: 125px
+		background-repeat: no-repeat
+		background-position: center
+		background-size: auto 100%
+		cursor: pointer
+		position: relative
+		&:hover
+			.process-tabs__title
+				display: block
+		&:last-child
+			.process-tabs__title
+				right: 0
+				transform: translateX(5px)
+		&--all
+			background-image: url(../img/all.svg)
+			&:hover
+				background-image: url(../img/all_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/all_active.svg)
+		&--os
+			background-image: url(../img/doc.svg)
+			&:hover
+				background-image: url(../img/doc_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/doc_active.svg)
+		&--ef
+			background-image: url(../img/economics.svg)
+			&:hover
+				background-image: url(../img/economics_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/economics_active.svg)
+		&--ia
+			background-image: url(../img/industry.svg)
+			&:hover
+				background-image: url(../img/industry_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/industry_active.svg)
+		&--tr
+			background-image: url(../img/trade.svg)
+			&:hover
+				background-image: url(../img/trade_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/trade_active.svg)
+		&--te
+			background-image: url(../img/it.svg)
+			&:hover
+				background-image: url(../img/it_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/it_active.svg)
+		&--cc
+			background-image: url(../img/customs.svg)
+			&:hover
+				background-image: url(../img/customs_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/customs_active.svg)
+		&--ei
+			background-image: url(../img/energetics.svg)
+			&:hover
+				background-image: url(../img/energetics_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/energetics_active.svg)
+		&--ca
+			background-image: url(../img/regulation.svg)
+			&:hover
+				background-image: url(../img/regulation_hover.svg)
+			&.process-tabs__item--active
+				background-image: url(../img/regulation_active.svg)
+	&__title
+		position: absolute
+		top: 100%
+		right: 50%
+		transform: translateX(50%)
+		background-color: #eee
+		text-align: center
+		padding: 10px
+		border-radius: 10px
+		border: 1px solid #d5dade
+		display: none
+		font-family: "Open Sans", sans-serif
+		font-size: 12px
+		line-height: 16px
