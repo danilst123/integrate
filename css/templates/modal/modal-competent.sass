@@ -1,10 +1,28 @@
-.competent-authority-properties
+.modal-competent
 	&__set
-		&--first
+		&--top-person
 			padding: 25px 30px 20px
 			background-color: #f2f2f2
-		&--second
+		&--middle-person
 			padding: 22px 30px 32px
+		&--top-authority
+			padding: 25px 30px
+			background-color: #f2f2f2
+		&--middle-authority
+			padding: 20px 30px
+		&--bottom-authority
+			padding: 20px 30px
+			position: relative
+			&:before
+				content: ''
+				display: block
+				position: absolute
+				top: 0
+				left: 50%
+				transform: translateX(-50%)
+				height: 1px
+				width: 540px
+				background-color: #cdd3d6
 	&__row
 		display: flex
 		&--centered
@@ -14,23 +32,31 @@
 		&--middle-offset
 			margin-bottom: 6px
 		&--big-offset
+			margin-bottom: 8px
+		&--large-offset
 			margin-bottom: 12px
 	&__field
 		&--left
-			width: 183px
 			padding-right: 20px
 			color: #262626
 			font-family: "Open Sans", sans-serif
 			font-size: 13px
 			font-weight: 600
 			line-height: 15px
+			&.modal-competent__field--person
+				width: 183px
+			&.modal-competent__field--authority
+				width: 134px
 		&--right
-			width: calc(100% - 183px)
 			color: #595959
 			font-family: "Open Sans", sans-serif
 			font-size: 13px
 			font-weight: 400
 			line-height: 16px
+			&.modal-competent__field--person
+				width: calc(100% - 183px)
+			&.modal-competent__field--authority
+				width: calc(100% - 134px)
 		&--smalloffseted
 			margin-top: 12px 
 		&--bigoffseted
@@ -113,3 +139,25 @@
 		margin-left: 4px
 		border-radius: 50%
 		overflow: hidden
+	&__load
+		display: flex
+		align-items: center
+		justify-content: center
+		width: 124px
+		height: 34px
+		border-radius: 3px
+		border: 2px solid #0072c6
+		background-color: #ffffff
+		cursor: pointer
+		transition: all 0.3s
+		&:hover
+			background-color: #e8e8e8
+		span
+			color: #0072c6
+			font-family: "Open Sans", sans-serif
+			font-size: 13px
+			font-weight: 700
+			line-height: 30px
+			text-transform: uppercase
+			letter-spacing: -0.13px
+			margin-left: 7px
