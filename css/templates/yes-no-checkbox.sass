@@ -1,6 +1,11 @@
-.process-kpi-checkbox
+.yes-no-checkbox
 	display: flex
 	align-items: center
+	&--short
+		width: 57px
+		.yes-no-checkbox__checkbox
+			&:before, &:after
+				text-transform: lowercase
 	&__input
 		display: none
 	&__checkbox
@@ -18,12 +23,12 @@
 			font-family: "Open Sans", sans-serif
 			font-size: 13px
 			font-weight: 400
-			line-height: 19px
+			line-height: 13px
 			transition: all 0.3s
 			position: absolute
 			z-index: 1
 			top: 50%
-			transform: translateY(-50%)
+			transform: translateY(-55%)
 			left: 27px
 		&:after
 			content: ''
