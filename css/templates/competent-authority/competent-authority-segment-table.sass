@@ -56,7 +56,7 @@
         &--email
             &:not(.competent-authority-segment-table__field--noicon)
                 width: 180px
-                background-image: url(../img/icon-email.png)
+                background-image: url(../img/icon-email.svg)
                 padding-left: 18px
         &--skype
             &:not(.competent-authority-segment-table__field--noicon)
@@ -90,34 +90,5 @@
         display: flex
         width: 50px
     &__operate-btn
-        display: inline-block
-        vertical-align: top
-        width: 24px
-        height: 24px
-        border-radius: 3px
-        background-color: #ffffff
-        background-repeat: no-repeat
-        background-position: center
-        cursor: pointer
         &:last-child
             margin-left: 2px
-        &--edit
-            border: 2px solid #0072c6
-            background-image: url(../img/icon-edit.svg)
-            background-size: 12px auto
-        &--delete
-            border: 2px solid #8297a7
-            position: relative
-            &:after, &:before
-                content: ''
-                display: block
-                width: 2px
-                height: 10px
-                background-color: #8297a7
-                position: absolute
-                top: 50%
-                left: 50%
-            &:after
-                transform: translate(-50%, -50%) rotate(45deg)
-            &:before
-                transform: translate(-50%, -50%) rotate(-45deg)
