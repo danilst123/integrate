@@ -735,7 +735,7 @@ body {
           transform: translateX(5px);
 }
 .process-tabs__item--all {
-  background-image: url(../img/all.svg);
+  background-image: url(../img/all.svg), url(../img/all_hover.svg), url(../img/all_active.svg);
 }
 .process-tabs__item--all:hover {
   background-image: url(../img/all_hover.svg);
@@ -744,7 +744,7 @@ body {
   background-image: url(../img/all_active.svg);
 }
 .process-tabs__item--os {
-  background-image: url(../img/doc.svg);
+  background-image: url(../img/doc.svg), url(../img/doc_hover.svg), url(../img/doc_active.svg);
 }
 .process-tabs__item--os:hover {
   background-image: url(../img/doc_hover.svg);
@@ -753,7 +753,7 @@ body {
   background-image: url(../img/doc_active.svg);
 }
 .process-tabs__item--ef {
-  background-image: url(../img/economics.svg);
+  background-image: url(../img/economics.svg), url(../img/economics_hover.svg), url(../img/economics_active.svg);
 }
 .process-tabs__item--ef:hover {
   background-image: url(../img/economics_hover.svg);
@@ -762,7 +762,7 @@ body {
   background-image: url(../img/economics_active.svg);
 }
 .process-tabs__item--ia {
-  background-image: url(../img/industry.svg);
+  background-image: url(../img/industry.svg), url(../img/industry_hover.svg), url(../img/industry_active.svg);
 }
 .process-tabs__item--ia:hover {
   background-image: url(../img/industry_hover.svg);
@@ -771,7 +771,7 @@ body {
   background-image: url(../img/industry_active.svg);
 }
 .process-tabs__item--tr {
-  background-image: url(../img/trade.svg);
+  background-image: url(../img/trade.svg), url(../img/trade_hover.svg), url(../img/trade_active.svg);
 }
 .process-tabs__item--tr:hover {
   background-image: url(../img/trade_hover.svg);
@@ -780,7 +780,7 @@ body {
   background-image: url(../img/trade_active.svg);
 }
 .process-tabs__item--te {
-  background-image: url(../img/it.svg);
+  background-image: url(../img/it.svg), url(../img/it_hover.svg), url(../img/it_active.svg);
 }
 .process-tabs__item--te:hover {
   background-image: url(../img/it_hover.svg);
@@ -789,7 +789,7 @@ body {
   background-image: url(../img/it_active.svg);
 }
 .process-tabs__item--cc {
-  background-image: url(../img/customs.svg);
+  background-image: url(../img/customs.svg), url(../img/customs_hover.svg), url(../img/customs_active.svg);
 }
 .process-tabs__item--cc:hover {
   background-image: url(../img/customs_hover.svg);
@@ -798,7 +798,7 @@ body {
   background-image: url(../img/customs_active.svg);
 }
 .process-tabs__item--ei {
-  background-image: url(../img/energetics.svg);
+  background-image: url(../img/energetics.svg), url(../img/energetics_hover.svg), url(../img/energetics_active.svg);
 }
 .process-tabs__item--ei:hover {
   background-image: url(../img/energetics_hover.svg);
@@ -807,7 +807,7 @@ body {
   background-image: url(../img/energetics_active.svg);
 }
 .process-tabs__item--ca {
-  background-image: url(../img/regulation.svg);
+  background-image: url(../img/regulation.svg), url(../img/regulation_hover.svg), url(../img/regulation_active.svg);
 }
 .process-tabs__item--ca:hover {
   background-image: url(../img/regulation_hover.svg);
