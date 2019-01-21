@@ -1842,6 +1842,7 @@ body {
   font-weight: 700;
   line-height: 22px;
   margin-bottom: 11px;
+  cursor: pointer;
 }
 .competent-authority-segment__emblem {
   position: absolute;
@@ -1862,6 +1863,10 @@ body {
 }
 .competent-authority-segment__operate-btn {
   margin-left: 4px;
+}
+
+.competent-authority-segment-tables {
+  display: none;
 }
 
 .competent-authority-segment-table {
