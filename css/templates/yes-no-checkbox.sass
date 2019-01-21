@@ -1,6 +1,6 @@
 .yes-no-checkbox
-	display: flex
-	align-items: center
+	display: inline-block
+	vertical-align: middle
 	&--short
 		width: 57px
 		.yes-no-checkbox__checkbox
@@ -44,12 +44,14 @@
 			transform: translateY(-50%)
 			left: 3px
 	&__text
+		display: inline-block
+		vertical-align: middle
 		color: #262626
 		font-family: "Open Sans", sans-serif
 		font-size: 13px
 		font-weight: 600
 		line-height: 15px
-		margin-left: 15px
+		margin-left: 12px
 	&__input:checked + &__checkbox
 		border: 1px solid #cba921
 		background-color: #f9fae7
