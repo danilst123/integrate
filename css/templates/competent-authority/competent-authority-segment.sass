@@ -1,21 +1,37 @@
 .competent-authority-segment
 	position: relative
-	padding: 25px 20px 20px 131px
-	min-height: 140px
-	&--bordered
-		border-bottom: 1px solid #ececec
+	padding: 25px 20px 20px 80px
+	min-height: 90px
+	transition: all 0.3s
 	&__title
+		display: inline-block
 		color: #595959
 		font-family: "Open Sans", sans-serif
 		font-size: 14px
 		font-weight: 700
 		line-height: 22px
-		margin-bottom: 11px
 		cursor: pointer
+		position: relative
+		&:after
+			content: ''
+			display: inline-block
+			vertical-align: middle
+			width: 8px
+			height: 8px
+			border-left: 2px solid #595959
+			border-top: 2px solid #595959
+			border-radius: 2px 0 0 0
+			transform: rotate(225deg)
+			transform-origin: 3px 3px
+			transition: all 0.3s
+			margin-left: 15px
+			margin-top: 2px
 	&__emblem
 		position: absolute
 		top: 25px
 		left: 25px
+		max-width: 40px
+		transition: all 0.3s
 	&__operate
 		display: flex
 		justify-content: flex-end
@@ -25,3 +41,16 @@
 		margin-bottom: 7px
 	&__operate-btn
 		margin-left: 4px
+	.competent-authority-segment-tables
+		margin-top: 11px
+	&--bordered
+		border-bottom: 1px solid #ececec
+	&--expanded
+		padding-left: 131px
+		min-height: 140px
+		.competent-authority-segment
+			&__title
+				&:after
+					transform: rotate(45deg)
+			&__emblem
+				max-width: 90px

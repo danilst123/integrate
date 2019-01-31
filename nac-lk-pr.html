@@ -383,7 +383,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $('.competent-authority-segment__title').click(function(){
-            $(this).siblings('.competent-authority-segment-tables').slideToggle(400);
+            $(this)
+                .siblings('.competent-authority-segment-tables').slideToggle(400)
+                .parents('.competent-authority-segment').toggleClass('competent-authority-segment--expanded');
         });
     </script>
 </body>
