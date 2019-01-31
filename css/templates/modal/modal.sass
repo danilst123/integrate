@@ -1,8 +1,4 @@
 .modal
-    display: flex
-    flex-direction: column
-    align-items: center
-    justify-content: center
     width: 100%
     min-width: 1220px
     height: 100%
@@ -19,21 +15,19 @@
         top: 0
         left: 0
         background-color: rgba(24, 36, 64, 0.8)
-        cursor: zoom-out
     &__container
-        min-width: 600px
+        width: 600px
         box-shadow: 0 1px 4px rgba(26, 26, 26, 0.22)
         border-radius: 3px
         background-color: #ffffff
         overflow: hidden
-        position: relative
+        position: fixed
         z-index: 1
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
         &--edit-stage-status
             width: 840px
-        &--stage-kpi
-            width: 600px
-        &--competent-authority-properties
-            width: 600px
     &__header
         padding: 0 30px
         text-align: center

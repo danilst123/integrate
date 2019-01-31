@@ -1,113 +1,150 @@
 .modal-stage-kpi
-	padding: 12px 30px
-	&__set
-		&:not(:last-child)
-			margin-bottom: 11px
-	&__row
-		display: flex
-		align-items: center
-		justify-content: space-between
-		&--colored
-			height: 52px
-			border-radius: 3px
-			background-color: #f2f2f2
-			padding: 0 6px 0 15px
-			&:not(:last-child)
-				margin-bottom: 2px
-	&__period, &__property
-		display: flex
-		align-items: center
-		span
-			color: #262626
-			font-family: "Open Sans", sans-serif
-			font-size: 13px
-			font-weight: 600
-			line-height: 15px
-			margin-right: 8px
-		small
-			color: #262626
-			font-family: "Open Sans", sans-serif
-			font-size: 13px
-			font-weight: 400
-			line-height: 19px
-			margin: 0 5px
-	&__timepicker
-		width: 120px
-		height: 34px
-		border-radius: 3px
-		border: 1px solid #cdd3d6
-		background-color: #ffffff
-		color: #262626
-		font-family: "Open Sans", sans-serif
-		font-size: 13px
-		font-weight: 400
-		line-height: 32px
-		padding: 0 34px 0 8px
-		background-image: url(../img/icon-calendar.svg)
-		background-repeat: no-repeat
-		background-position: right 8px center
-		position: relative
-		cursor: pointer
-		&:before
-			content: ''
-			width: 1px
-			height: 100%
-			position: absolute
-			right: 34px
-			top: 0
-			background: #cdd3d6
-	&__input
-		width: 83px
-		height: 34px
-		border-radius: 3px
-		border: 1px solid #cdd3d6
-		background-color: #ffffff
-		padding: 0 11px
-		appearance: none
-		font-family: "Open Sans", sans-serif
-		font-size: 13px
-		font-weight: 400
-		line-height: 32px
-		color: #262626
-		&::placeholder
-			color: #262626
-			opacity: 1
-	&__round-btn
-		margin-left: 6px
-	&__roll-up
-		border: none
-		display: flex
-		align-items: center
-		background: none
-		cursor: pointer
-		&:hover span
-			text-decoration: underline
-		span
-			color: #2b74a1
-			font-family: "Open Sans", sans-serif
-			font-size: 13px
-			font-weight: 400
-			line-height: 19px
-			margin-left: 10px
-	&__count
-		display: flex
-		align-items: center
-		strong
-			min-width: 21px
-			height: 21px
-			border-radius: 3px
-			background-color: #e5e6e6
-			padding: 0 6px
-			color: #898989
-			font-family: "Open Sans", sans-serif
-			font-size: 13px
-			font-weight: 700
-			line-height: 19px
-			margin-right: 15px
-			text-align: center
-		span
-			color: #898989
-			font-family: "Open Sans", sans-serif
-			font-size: 13px
-			font-weight: 400
-			line-height: 19px
+    padding: 12px 30px
+    &__set
+        &:not(:last-child)
+            margin-bottom: 11px
+    &__row
+        display: flex
+        align-items: center
+        justify-content: space-between
+        &--colored
+            border-radius: 3px
+            background-color: #f2f2f2
+            padding: 9px 6px 9px 15px
+            &:not(:last-child)
+                margin-bottom: 2px
+        &--add-row
+            justify-content: flex-end
+    &__period, &__property
+        display: flex
+        align-items: center
+        span
+            display: block
+            width: 100%
+            text-align: center
+            color: #262626
+            font-family: "Open Sans", sans-serif
+            font-size: 13px
+            font-weight: 600
+            line-height: 15px
+        small
+            color: #262626
+            font-family: "Open Sans", sans-serif
+            font-size: 13px
+            font-weight: 400
+            line-height: 19px
+            margin: 0 5px
+    &__period
+        width: 343px
+    &__property
+        width: 146px
+    &__timepicker
+        width: 160px
+        height: 34px
+        border-radius: 3px
+        border: 1px solid #cdd3d6
+        background-color: #ffffff
+        color: #262626
+        font-family: "Open Sans", sans-serif
+        font-size: 13px
+        font-weight: 400
+        line-height: 32px
+        padding: 0 34px 0 8px
+        background-image: url(../img/icon-calendar.svg)
+        background-repeat: no-repeat
+        background-position: right 8px center
+        position: relative
+        cursor: pointer
+        &::-webkit-calendar-picker-indicator
+            position: absolute
+            right: 8px
+            color: black
+            opacity: 0 
+        &::-webkit-datetime-edit, 
+        &::-webkit-inner-spin-button, 
+        &::-webkit-clear-button
+            display: none
+        &::-webkit-calendar-picker-indicator
+            cursor: pointer
+        &:before
+            content: attr(data-date)
+            display: inline-block
+            color: black
+            position: absolute
+            top: 50%
+            left: 8px
+            transform: translateY(-50%)
+        &:after
+            content: ''
+            width: 1px
+            height: 100%
+            position: absolute
+            right: 34px
+            top: 0
+            background: #cdd3d6
+    &__input
+        width: 120px
+        height: 34px
+        border-radius: 3px
+        border: 1px solid #cdd3d6
+        background-color: #ffffff
+        padding: 0 11px
+        appearance: none
+        font-family: "Open Sans", sans-serif
+        font-size: 13px
+        font-weight: 400
+        line-height: 32px
+        color: #262626
+        &::placeholder
+            color: #262626
+            opacity: 1
+    &__round-btn
+        margin-left: 6px
+    &__roll-up
+        border: none
+        display: flex
+        align-items: center
+        background: none
+        cursor: pointer
+        // cброс стилей шеирпоинта
+        min-width: auto
+        padding: 0
+        margin: 0
+        font-family: "Open Sans", sans-serif
+        font-size: 13px
+        color: #2b74a1
+        &:hover, &:active
+            background: none
+            span
+                text-decoration: underline
+        span
+            color: #2b74a1
+            font-family: "Open Sans", sans-serif
+            font-size: 13px
+            font-weight: 400
+            line-height: 19px
+            margin-left: 10px
+    &__count
+        display: flex
+        align-items: center
+        strong
+            min-width: 21px
+            height: 21px
+            border-radius: 3px
+            background-color: #e5e6e6
+            padding: 0 6px
+            color: #898989
+            font-family: "Open Sans", sans-serif
+            font-size: 13px
+            font-weight: 700
+            line-height: 19px
+            margin-right: 15px
+            text-align: center
+        span
+            color: #898989
+            font-family: "Open Sans", sans-serif
+            font-size: 13px
+            font-weight: 400
+            line-height: 19px
+
+
