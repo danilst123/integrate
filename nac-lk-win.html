@@ -10,6 +10,7 @@
     <title>Главная страница общих процессов</title>
     
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body class="body">
     <header class="header">
@@ -278,13 +279,17 @@
                         <div class="modal-edit-stage-status__row modal-edit-stage-status__row--centered">
                             <div class="modal-edit-stage-status__field modal-edit-stage-status__field--left">Плановый срок завершения</div>
                             <div class="modal-edit-stage-status__field modal-edit-stage-status__field--right">
-                                <div class="modal-edit-stage-status__timepicker">04.11.2017</div>
+                                <label class="datepicker">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                             </div>
                         </div>
                         <div class="modal-edit-stage-status__row modal-edit-stage-status__row--centered">
                             <div class="modal-edit-stage-status__field modal-edit-stage-status__field--left">Фактический срок завершения</div>
                             <div class="modal-edit-stage-status__field modal-edit-stage-status__field--right">
-                                <div class="modal-edit-stage-status__timepicker">04.11.2017</div>
+                                <label class="datepicker">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                             </div>
                         </div>
                         <div class="modal-edit-stage-status__row modal-edit-stage-status__row--centered modal-edit-stage-status__row--complete">
@@ -338,5 +343,32 @@
             </div>
         </div>
     </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    $( function() {
+  
+        $.datepicker.regional['ru'] = {
+            closeText: 'Закрыть',
+            prevText: '&#x3c;Пред',
+            nextText: 'След&#x3e;',
+            currentText: 'Сегодня',
+            monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'], monthNamesShort: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+            dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+            dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+            dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+            weekHeader: 'Нед',
+            dateFormat: 'dd.mm.yy',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''
+        };
+
+        $.datepicker.setDefaults($.datepicker.regional['ru']);
+
+        $( ".datepicker__input" ).datepicker();
+    });
+</script>
 </body>
 </html>

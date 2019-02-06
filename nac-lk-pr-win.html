@@ -10,6 +10,7 @@
     <title>Национальный кабинет</title>
     
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body class="body">
     <header class="header">
@@ -402,9 +403,13 @@
                         </div>
                         <div class="modal-stage-kpi__row modal-stage-kpi__row--colored">
                             <div class="modal-stage-kpi__period">
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                                 <small>—</small>
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                             </div>
                             <div class="modal-stage-kpi__property">
                                 <input value="19" class="modal-stage-kpi__input">
@@ -413,9 +418,13 @@
                         </div>
                         <div class="modal-stage-kpi__row modal-stage-kpi__row--colored">
                             <div class="modal-stage-kpi__period">
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                                 <small>—</small>
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                             </div>
                             <div class="modal-stage-kpi__property">
                                 <input value="19" class="modal-stage-kpi__input">
@@ -424,9 +433,13 @@
                         </div>
                         <div class="modal-stage-kpi__row modal-stage-kpi__row--colored">
                             <div class="modal-stage-kpi__period">
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                                 <small>—</small>
-                                <input data-date="01.01.2017" value="2017-01-01" type="date" class="modal-stage-kpi__timepicker">
+                                <label class="datepicker datepicker--big">
+                                    <input value="01.01.2017" class="datepicker__input">
+                                </label>
                             </div>
                             <div class="modal-stage-kpi__property">
                                 <input value="19" class="modal-stage-kpi__input">
@@ -459,5 +472,33 @@
             </div>
         </div>
     </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+    $( function() {
+  
+        $.datepicker.regional['ru'] = {
+            closeText: 'Закрыть',
+            prevText: '&#x3c;Пред',
+            nextText: 'След&#x3e;',
+            currentText: 'Сегодня',
+            monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'], monthNamesShort: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+            dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+            dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+            dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+            weekHeader: 'Нед',
+            dateFormat: 'dd.mm.yy',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''
+        };
+
+        $.datepicker.setDefaults($.datepicker.regional['ru']);
+
+        $( ".datepicker__input" ).datepicker();
+    });
+</script>
 </body>
 </html>
