@@ -1094,7 +1094,10 @@ body {
         text-align: left; }
       .schedule-table__field--head:last-child {
         border-right: none; }
+      .schedule-table__field--head strong, .schedule-table__field--head p {
+        width: 100%; }
       .schedule-table__field--head strong {
+        font-weight: bold;
         display: inline-block;
         margin-bottom: 4px; }
     .schedule-table__field--country {
