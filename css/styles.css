@@ -1520,6 +1520,37 @@ body {
     .process-kpi__edit:not(:last-child) {
       margin-bottom: 7px; }
 
+.table-kpi {
+  width: 100%;
+  margin-top: 13px;
+  padding-top: 20px;
+  border-top: 1px solid #cdd3d6; }
+  .table-kpi__row:last-child .table-kpi__cell {
+    padding-bottom: 0; }
+  .table-kpi__cell {
+    vertical-align: top;
+    padding-bottom: 7px; }
+    .table-kpi__cell:nth-child(1) {
+      width: 70px; }
+    .table-kpi__cell:nth-child(2) {
+      padding-top: 7px; }
+    .table-kpi__cell:nth-child(3) {
+      width: 159px; }
+  .table-kpi__number {
+    color: #595959;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    word-break: break-all; }
+  .table-kpi__property {
+    color: #262626;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 0 20px 0 14px; }
+
 .competent-authority {
   padding: 35px 0 80px; }
   .competent-authority__container {
