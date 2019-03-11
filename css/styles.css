@@ -1723,11 +1723,14 @@ body {
 
 .competent-authority-segment {
   position: relative;
-  padding: 25px 20px 20px 80px;
-  min-height: 90px;
+  padding: 20px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s; }
+  .competent-authority-segment:after, .competent-authority-segment:before {
+    content: '';
+    display: table;
+    clear: both; }
   .competent-authority-segment__title {
     display: inline-block;
     color: #595959;
@@ -1759,13 +1762,12 @@ body {
       margin-left: 15px;
       margin-top: 2px; }
   .competent-authority-segment__emblem {
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    float: left;
     max-width: 40px;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    margin-right: 15px; }
   .competent-authority-segment__operate {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1785,15 +1787,12 @@ body {
     margin-top: 11px; }
   .competent-authority-segment--bordered {
     border-bottom: 1px solid #ececec; }
-  .competent-authority-segment--expanded {
-    padding-left: 131px;
-    min-height: 140px; }
-    .competent-authority-segment--expanded .competent-authority-segment__title:after {
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg); }
-    .competent-authority-segment--expanded .competent-authority-segment__emblem {
-      max-width: 90px; }
+  .competent-authority-segment--expanded .competent-authority-segment__title:after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .competent-authority-segment--expanded .competent-authority-segment__emblem {
+    max-width: 90px; }
 
 .competent-authority-segment-tables {
   display: none; }

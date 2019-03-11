@@ -1,8 +1,11 @@
 .competent-authority-segment
 	position: relative
-	padding: 25px 20px 20px 80px
-	min-height: 90px
+	padding: 20px
 	transition: all 0.3s
+	&:after, &:before
+		content: ''
+		display: table
+		clear: both
 	&__title
 		display: inline-block
 		color: #595959
@@ -27,11 +30,10 @@
 			margin-left: 15px
 			margin-top: 2px
 	&__emblem
-		position: absolute
-		top: 25px
-		left: 25px
+		float: left
 		max-width: 40px
 		transition: all 0.3s
+		margin-right: 15px
 	&__operate
 		display: flex
 		justify-content: flex-end
@@ -46,8 +48,6 @@
 	&--bordered
 		border-bottom: 1px solid #ececec
 	&--expanded
-		padding-left: 131px
-		min-height: 140px
 		.competent-authority-segment
 			&__title
 				&:after
