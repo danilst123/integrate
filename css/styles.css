@@ -1033,7 +1033,12 @@ body {
   border-radius: 3px;
   -webkit-box-shadow: 0 1px 4px rgba(26, 26, 26, 0.22);
   box-shadow: 0 1px 4px rgba(26, 26, 26, 0.22);
-  overflow: hidden; }
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .schedule-table * {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit; }
   .schedule-table__row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1044,12 +1049,12 @@ body {
     .schedule-table__row:last-child .schedule-table__field--status {
       border-bottom: none; }
   .schedule-table__field {
-    width: 120px;
+    width: 122px;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0; }
     .schedule-table__field:first-child {
-      width: 225px;
+      width: 226px;
       position: relative; }
       .schedule-table__field:first-child:after {
         content: '';
