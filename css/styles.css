@@ -2347,8 +2347,12 @@ body {
   margin-left: 6px; }
 
 .modal-edit-stage-status__add-doc {
-  width: 206px;
+  display: block;
   margin-top: 16px; }
+  .modal-edit-stage-status__add-doc input[type="file"] {
+    display: none; }
+  .modal-edit-stage-status__add-doc .btn {
+    width: 206px; }
 
 .modal-stage-kpi {
   padding: 12px 30px; }
