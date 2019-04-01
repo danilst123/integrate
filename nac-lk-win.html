@@ -326,13 +326,25 @@
                                     </a>
                                     <button class="modal-edit-stage-status__delete-doc btn btn--round-delete btn--round-delete-small"></button>
                                 </div>
-                                <label class="modal-edit-stage-status__add-doc">  
-                                    <input type="file" name="" id="">                                  
-                                    <button class="btn btn--middle btn--blue-bordered">
-                                        <img src="img/icon-add.svg" alt="">
-                                        <span>Добавить документ</span>
-                                    </button>
+                                <label class="modal-edit-stage-status__load-doc">  
+                                    <input type="file" name="" id="uploaded-file" onchange="getFileName();">                                  
+                                    <div class="btn btn--middle btn--blue-bordered">
+                                        <img src="img/icon-load.svg" alt="">
+                                        <span>Выбрать документ</span>
+                                    </div>
+                                    <script>
+                                        function getFileName() {
+                                            var file = document.getElementById('uploaded-file').value;
+                                            file = file.replace(/\\/g, '/').split('/').pop();
+                                            document.getElementById('file-name').innerHTML = 'Имя файла: ' + file;
+                                        }
+                                    </script>
                                 </label>
+                                <p id="file-name" class="modal-edit-stage-status__file-name"></p>
+                                <button class="modal-edit-stage-status__add-doc btn btn--middle btn--blue-bordered">
+                                    <img src="img/icon-add.svg" alt="">
+                                    <span>Добавить документ</span>
+                                </button>
                             </div>
                         </div>
                     </div>

@@ -86,10 +86,23 @@
 			margin-left: 9px
 	&__delete-doc
 		margin-left: 6px
-	&__add-doc
-		display: block
+	&__load-doc
+		display: inline-block
+		vertical-align: middle
 		margin-top: 16px
+		margin-right: 10px
 		input[type="file"]
 			display: none
-		.btn
-			width: 206px
+	&__file-name
+		display: inline-block
+		vertical-align: middle
+		line-height: 34px
+		margin-top: 16px
+		max-width: calc(100% - 250px)
+		overflow: hidden
+		text-overflow: ellipsis
+		white-space: nowrap
+		&:empty
+			display: none
+	&__add-doc
+		margin-top: 5px

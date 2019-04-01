@@ -2346,13 +2346,30 @@ body {
 .modal-edit-stage-status__delete-doc {
   margin-left: 6px; }
 
-.modal-edit-stage-status__add-doc {
-  display: block;
-  margin-top: 16px; }
-  .modal-edit-stage-status__add-doc input[type="file"] {
+.modal-edit-stage-status__load-doc {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 16px;
+  margin-right: 10px; }
+  .modal-edit-stage-status__load-doc input[type="file"] {
     display: none; }
-  .modal-edit-stage-status__add-doc .btn {
-    width: 206px; }
+
+.modal-edit-stage-status__file-name {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 34px;
+  margin-top: 16px;
+  max-width: -webkit-calc(100% - 250px);
+  max-width: calc(100% - 250px);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+  .modal-edit-stage-status__file-name:empty {
+    display: none; }
+
+.modal-edit-stage-status__add-doc {
+  margin-top: 5px; }
 
 .modal-stage-kpi {
   padding: 12px 30px; }
